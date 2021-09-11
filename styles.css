@@ -1,0 +1,110 @@
+
+html, body {
+  background-color: #000;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+  opacity: 0.9;
+}
+/*header*/
+header {
+  width: 100%;
+  height: 3.13rem;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.04rem solid seashell;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+nav li {
+  display: inline-flex;
+
+}
+li a {
+  color: seashell;
+  text-decoration: underline;
+  margin: 0 1rem;
+}
+header img {
+  height: 2.27rem;
+  width: auto;
+  margin-left: 0.46rem;
+  margin-top: 0.68rem;
+}
+/*main*/
+main {
+  width: 100%;
+  height: auto;
+  margin-top: 3.18rem;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2, h4 {
+  margin: 0.68rem 0;
+}
+/*mission*/
+#mission {
+  width: 54.54rem;
+  height: 31.8rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/Users/fruzsinaolah/Documents/Atom/Tea  Cozy/Resources/Images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0.9rem;
+  background-size: cover;
+}
+.mission-statement{
+  background-color: #000;
+  width: 54.54rem;
+  height: auto;
+}
+/*featured tea*/
+#featured-tea {
+  width: 45.45rem;
+  height: auto;
+  margin-top: 3.18rem;
+}
+figure{
+  display: inline-flex;
+  flex-direction: column;
+  margin-right: 0.68rem;
+  margin-left: 0.40rem;
+}
+figure img {
+  width: 13.62rem;
+  height: 9.09rem;
+}
+figcaption{
+  margin-top: 0.46rem;
+}
+/*locations*/
+#locations {
+  width: 54.54rem;
+  height: 22.72rem;
+  margin-top: 3.18rem;
+  background-image: url("/Users/fruzsinaolah/Documents/Atom/Tea  Cozy/Resources/Images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 -3.18rem;
+  background-size: cover;
+}
+.address {
+  width: 13.62rem;
+  height: auto;
+  display: inline-flex;
+  flex-direction: column ;
+  margin-right: 1.8rem;
+  background-color: #000;
+}
+.contact{
+  height: 9.09rem;
+  width: auto;
+}
+footer {
+  text-align: left;
+  margin-left: 0.9rem;
+}
